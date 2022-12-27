@@ -164,6 +164,11 @@ const swiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"]('.card__slider
   navigation: {
     nextEl: '.card__slider-btn--next',
     prevEl: '.card__slider-btn--prev'
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true
+    // dynamicBullets: true,
   }
 });
 
